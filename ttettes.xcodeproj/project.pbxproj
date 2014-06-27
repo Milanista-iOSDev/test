@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD07A733195D23D900EBBDFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD07A732195D23D900EBBDFC /* main.m */; };
+		FD07A736195D23D900EBBDFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD07A735195D23D900EBBDFC /* AppDelegate.m */; };
+		FD07A739195D23D900EBBDFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD07A738195D23D900EBBDFC /* ViewController.m */; };
+		FD07A73C195D23D900EBBDFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD07A73A195D23D900EBBDFC /* Main.storyboard */; };
+		FD07A73E195D23D900EBBDFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD07A73D195D23D900EBBDFC /* Images.xcassets */; };
+		FD07A74A195D23D900EBBDFC /* ttettesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD07A749195D23D900EBBDFC /* ttettesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD07A744195D23D900EBBDFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD07A725195D23D900EBBDFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD07A72C195D23D900EBBDFC;
+			remoteInfo = ttettes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD07A72D195D23D900EBBDFC /* ttettes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ttettes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD07A731195D23D900EBBDFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD07A732195D23D900EBBDFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD07A734195D23D900EBBDFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD07A735195D23D900EBBDFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD07A737195D23D900EBBDFC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD07A738195D23D900EBBDFC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD07A73B195D23D900EBBDFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD07A73D195D23D900EBBDFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD07A743195D23D900EBBDFC /* ttettesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ttettesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD07A748195D23D900EBBDFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD07A749195D23D900EBBDFC /* ttettesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ttettesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD07A72A195D23D900EBBDFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD07A740195D23D900EBBDFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD07A724195D23D900EBBDFC = {
+			isa = PBXGroup;
+			children = (
+				FD07A72F195D23D900EBBDFC /* ttettes */,
+				FD07A746195D23D900EBBDFC /* ttettesTests */,
+				FD07A72E195D23D900EBBDFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD07A72E195D23D900EBBDFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD07A72D195D23D900EBBDFC /* ttettes.app */,
+				FD07A743195D23D900EBBDFC /* ttettesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD07A72F195D23D900EBBDFC /* ttettes */ = {
+			isa = PBXGroup;
+			children = (
+				FD07A734195D23D900EBBDFC /* AppDelegate.h */,
+				FD07A735195D23D900EBBDFC /* AppDelegate.m */,
+				FD07A737195D23D900EBBDFC /* ViewController.h */,
+				FD07A738195D23D900EBBDFC /* ViewController.m */,
+				FD07A73A195D23D900EBBDFC /* Main.storyboard */,
+				FD07A73D195D23D900EBBDFC /* Images.xcassets */,
+				FD07A730195D23D900EBBDFC /* Supporting Files */,
+			);
+			path = ttettes;
+			sourceTree = "<group>";
+		};
+		FD07A730195D23D900EBBDFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD07A731195D23D900EBBDFC /* Info.plist */,
+				FD07A732195D23D900EBBDFC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD07A746195D23D900EBBDFC /* ttettesTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD07A749195D23D900EBBDFC /* ttettesTests.m */,
+				FD07A747195D23D900EBBDFC /* Supporting Files */,
+			);
+			path = ttettesTests;
+			sourceTree = "<group>";
+		};
+		FD07A747195D23D900EBBDFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD07A748195D23D900EBBDFC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD07A72C195D23D900EBBDFC /* ttettes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD07A74D195D23D900EBBDFC /* Build configuration list for PBXNativeTarget "ttettes" */;
+			buildPhases = (
+				FD07A729195D23D900EBBDFC /* Sources */,
+				FD07A72A195D23D900EBBDFC /* Frameworks */,
+				FD07A72B195D23D900EBBDFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ttettes;
+			productName = ttettes;
+			productReference = FD07A72D195D23D900EBBDFC /* ttettes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD07A742195D23D900EBBDFC /* ttettesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD07A750195D23D900EBBDFC /* Build configuration list for PBXNativeTarget "ttettesTests" */;
+			buildPhases = (
+				FD07A73F195D23D900EBBDFC /* Sources */,
+				FD07A740195D23D900EBBDFC /* Frameworks */,
+				FD07A741195D23D900EBBDFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD07A745195D23D900EBBDFC /* PBXTargetDependency */,
+			);
+			name = ttettesTests;
+			productName = ttettesTests;
+			productReference = FD07A743195D23D900EBBDFC /* ttettesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD07A725195D23D900EBBDFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Takuya Aso";
+				TargetAttributes = {
+					FD07A72C195D23D900EBBDFC = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					FD07A742195D23D900EBBDFC = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = FD07A72C195D23D900EBBDFC;
+					};
+				};
+			};
+			buildConfigurationList = FD07A728195D23D900EBBDFC /* Build configuration list for PBXProject "ttettes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD07A724195D23D900EBBDFC;
+			productRefGroup = FD07A72E195D23D900EBBDFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD07A72C195D23D900EBBDFC /* ttettes */,
+				FD07A742195D23D900EBBDFC /* ttettesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD07A72B195D23D900EBBDFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD07A73C195D23D900EBBDFC /* Main.storyboard in Resources */,
+				FD07A73E195D23D900EBBDFC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD07A741195D23D900EBBDFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD07A729195D23D900EBBDFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD07A739195D23D900EBBDFC /* ViewController.m in Sources */,
+				FD07A736195D23D900EBBDFC /* AppDelegate.m in Sources */,
+				FD07A733195D23D900EBBDFC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD07A73F195D23D900EBBDFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD07A74A195D23D900EBBDFC /* ttettesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD07A745195D23D900EBBDFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD07A72C195D23D900EBBDFC /* ttettes */;
+			targetProxy = FD07A744195D23D900EBBDFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD07A73A195D23D900EBBDFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD07A73B195D23D900EBBDFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD07A74B195D23D900EBBDFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD07A74C195D23D900EBBDFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD07A74E195D23D900EBBDFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = ttettes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD07A74F195D23D900EBBDFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = ttettes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD07A751195D23D900EBBDFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ttettes.app/ttettes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ttettesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		FD07A752195D23D900EBBDFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ttettes.app/ttettes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ttettesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD07A728195D23D900EBBDFC /* Build configuration list for PBXProject "ttettes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD07A74B195D23D900EBBDFC /* Debug */,
+				FD07A74C195D23D900EBBDFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD07A74D195D23D900EBBDFC /* Build configuration list for PBXNativeTarget "ttettes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD07A74E195D23D900EBBDFC /* Debug */,
+				FD07A74F195D23D900EBBDFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD07A750195D23D900EBBDFC /* Build configuration list for PBXNativeTarget "ttettesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD07A751195D23D900EBBDFC /* Debug */,
+				FD07A752195D23D900EBBDFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD07A725195D23D900EBBDFC /* Project object */;
+}
